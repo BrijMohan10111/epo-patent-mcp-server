@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "epo_patents": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "REPLACE_WITH_YOUR_PATH_TO/epo_mcp_server",
+        "run",
+        "main.py"
+      ]
+    }
+  }
+}
