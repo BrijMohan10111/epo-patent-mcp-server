@@ -11,17 +11,3 @@ wheels/
 
 # Environment variables
 .env
-
-# Testing and outputs
-*.txt
-*.json
-!pyproject.toml
-!uv.lock
-!results.json
-!family_test_summary.json
-!exhaustive_test_results.json
-!family_counts.json
-!clean.json
-!family_results.json
-!ep14_family.json
-!exhaustive_test_results.json
