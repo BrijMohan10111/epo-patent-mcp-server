@@ -11,21 +11,16 @@ A FastMCP server built for querying the European Patent Office (EPO) Open Patent
 - **Number Service**: Convert docdb, epodoc, and other numbering formats seamlessly.
 - **PDF Downloader**: Generate direct-download URLs for the original PDF scans via the Espacenet portal.
 
-## Prerequisites
-- `uv` package manager
+## 🚀 Installation & Setup
 
-Ensure your `.env` contains:
-```env
-CONSUMER_KEY=your_epo_api_consumer_key
-CONSUMER_SECRET=your_epo_api_secret_key
-EPO_OPS_URL=https://ops.epo.org/3.2
-```
+For a detailed step-by-step guide on how to get your EPO keys and connect this server to Claude Desktop, please see our:
 
-## Running
-Install dependencies and run:
-```sh
-uv run main.py
-```
+👉 **[INSTALLATION.md](./INSTALLATION.md)**
+
+### Quick Start
+1. Ensure `uv` is installed.
+2. Setup `.env` with `CONSUMER_KEY` and `CONSUMER_SECRET`.
+3. Run: `uv run main.py`
 
 ## Adding to Claude Desktop
 Add it to your Claude Desktop config (`claude_desktop_config.json`):
